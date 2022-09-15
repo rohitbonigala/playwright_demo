@@ -20,7 +20,7 @@ test.describe('Active Medications Policy Text WorkFlow', () => {
   // to check the presence of policy text.
   test('to verify the policy text workflow', async () => {
 
-    await page.locator('text=Sign in').click(
+    await page.locator('text=Sign in').click();
 
     //click login and enter the username 
     await page.locator('input[id="login_field"]').click();
