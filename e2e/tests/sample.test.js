@@ -28,7 +28,7 @@ test.describe('Active Medications Policy Text WorkFlow', () => {
 
     //click password and enter the password 
     await page.locator('input[name="password"]').click();
-    await page.fill('input[name="password"]', '9172K@10vr');
+    await page.fill('input[name="password"]', '######');
 
 
     // //click sign in
