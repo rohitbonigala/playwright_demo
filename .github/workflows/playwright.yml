@@ -10,7 +10,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: Get inside of the test directory
-      working-directory: ./e2e
+      run: cd e2e
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
       with:
