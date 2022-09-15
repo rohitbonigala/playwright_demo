@@ -1,0 +1,12 @@
+{
+  "name": "playwright_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rohitbonigala/playwright_demo.git",
+  "author": "Rohit Bonigala <RB097605@cerner.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.25.2"
+  },
+  "scripts": {}
+}
