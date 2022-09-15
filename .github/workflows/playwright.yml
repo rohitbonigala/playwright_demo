@@ -4,7 +4,9 @@ on:
   #   branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-    paths: [ 'e2e']
+defaults:
+run:
+    working-directory: e2e
 jobs:
   test:
     timeout-minutes: 60
