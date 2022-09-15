@@ -4,14 +4,12 @@ on:
   #   branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-defaults:
-run:
-    working-directory: e2e
 jobs:
   test:
     timeout-minutes: 60
     runs-on: macos-latest
     steps:
+    working-directory: ./e2e
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
       with:
